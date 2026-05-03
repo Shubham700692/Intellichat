@@ -1,0 +1,113 @@
+
+.chats {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 6rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+}
+
+
+.userMessage {
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin-left: 23rem;
+    max-width: 500px;
+    width: fit-content;
+    line-height: 1.75;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end; 
+    right:0;
+
+
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+/* .userdiv{
+   display: flex;
+    justify-content: flex-end;
+   
+     align-self: flex-end;   
+    max-width: 70%;
+    margin-bottom: 12px;
+} */
+
+
+.gptDiv {
+    max-width: 100%;
+     text-align: left;
+    font-size: 0.9rem;
+     line-height: 1.65;
+     font-size: 1.0rem;
+}
+
+.gptDiv p {
+    line-height: 1.65;
+     margin-bottom: 2.0rem;
+
+    
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
+
+pre {
+    background-color: #1e1e1e;
+    padding: 14px;
+    border-radius: 10px;
+
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: auto; 
+}
+
+
+code {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
+.hljs {
+    background: transparent !important;
+    border-radius: 8px;
+}
+
+
+.hide-scrollbar {
+    scrollbar-width: none;      
+    -ms-overflow-style: none;  
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;              
+}
+/* Width of scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+    background: #1e1e1e;   /* change this */
+    border-radius: 10px;
+}
+
+/* Scrollbar thumb (the moving part) */
+::-webkit-scrollbar-thumb {
+    background: #383838;      
+    border-radius: 10px;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+    background: #383838;
+}
+
+
+

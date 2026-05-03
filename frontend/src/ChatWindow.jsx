@@ -34,7 +34,7 @@ const isLoggedIn = Boolean(localStorage.getItem("token"));
         };
 
         try {
-            const response = await fetch("http://localhost:8000/api/chat", options);//"https://shubhgpt.onrender.com/api/chat"
+            const response = await fetch("https://intellichat-t3k4.onrender.com/api/chat", options);//"https://shubhgpt.onrender.com/api/chat"
             const res = await response.json();
             console.log(res);
             setReply(res.reply);

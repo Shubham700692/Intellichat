@@ -20,7 +20,7 @@ function Chat() {
 
         if (!prevChats?.length) return;
 
-        const content = reply.split(""); // typing effect
+        const content = reply.split(""); 
 
         let idx = 0;
         const interval = setInterval(() => {
